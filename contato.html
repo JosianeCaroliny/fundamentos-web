@@ -22,22 +22,23 @@
 
     <form>
         <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
         <br>
         <label for="email">E-mail:</label> <br>
-        <input type="email" id="email">
+        <input type="email" id="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
         <br>
-        <br>
-        <label for="música">Qual sua música preferida da Riri? Me conta:</label> <br>
-        <input type="text" id="música">
-        <br>
+        <label for="musica">Qual sua música preferida da Riri? Me conta:</label> <br>
+        <input type="text" id="musica" onkeyup="validaMusica()">
+        <div id="txtMusica"></div>
         <br>
         <label for="assunto">Quer falar sobre outros assuntos? Bora!</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div>
         <br>
         <br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
     </form>
 
     <h2>Nos falamos em breve!</h2>
@@ -68,6 +69,7 @@
         </p>
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
