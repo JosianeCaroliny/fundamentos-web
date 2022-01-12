@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+    font-family: sans-serif;
+
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-1{
+    font-size: 18px;
+    padding: 50px;
+}
+
+.br-50{
+    border-radius: 30%;
+}
+
+.padding-1{
+    padding: 30px;
+}
+
+#menu li{
+    display: inline;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: rgb(255, 0, 149);
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
